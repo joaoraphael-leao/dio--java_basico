@@ -1,4 +1,4 @@
-package src;
+package src.SmartTv;
 
 public class SmartTv {
     boolean estaLigada = false;
