@@ -4,7 +4,7 @@ public class Telefone extends iphone{
     private String numeroADiscar;
     private boolean estaEmLigacao = false;
     public void ligar(){
-        System.out.printf("Ligando para %s", numeroADiscar);
+        System.out.printf("Ligando para %s\n", numeroADiscar);
         estaEmLigacao = true;
     }
     public void discarNumero(String novoNumero){ //igual a um setNumero
@@ -17,7 +17,7 @@ public class Telefone extends iphone{
         System.out.println("Para voltar a ligacao, clique em \"voltar para ligacao\"");
     }
     public void voltarALigacao(){
-        System.out.printf("Voce voltou a ligacao com %s", numeroADiscar);
+        System.out.printf("Voce voltou a ligacao com %s\n", numeroADiscar);
     }
     public void desligar(){
         System.out.println("Voce desligou");

@@ -23,5 +23,17 @@ public class Navegador extends iphone{
     public String getSiteAtual(){
         return siteAtual;
     }
+
+    public void setSiteAnterior(String siteAnterior) {
+        this.siteAnterior = siteAnterior;
+    }
+
+    public String getSiteAnterior() {
+        return siteAnterior;
+    }
+
+    public String getProximoSite() {
+        return proximoSite;
+    }
 }
 
