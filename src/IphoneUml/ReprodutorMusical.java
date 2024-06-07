@@ -2,7 +2,7 @@ package src.IphoneUml;
 
 import src.IphoneUml.Musica.Musica;
 
-public class ReprodutorMusical{
+public class ReprodutorMusical extends iphone{
     private Musica musicaAtual;
 
     public void escolherMusica() {

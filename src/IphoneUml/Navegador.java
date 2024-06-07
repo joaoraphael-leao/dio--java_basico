@@ -1,6 +1,6 @@
 package src.IphoneUml;
 
-public class Navegador{
+public class Navegador extends iphone{
     private String siteAtual;
     private String siteAnterior;
     private String proximoSite;
@@ -15,7 +15,7 @@ public class Navegador{
         this.siteAtual = this.proximoSite;
         this.proximoSite = null;
     }
-    public void irParaSite(String siteNovo){
+    public void irParaSite(String siteNovo) {
         this.siteAnterior = this.siteAtual;
         this.siteAtual = siteNovo;
         this.proximoSite = null;
